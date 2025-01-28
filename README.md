@@ -1,8 +1,21 @@
-# React + Vite
+# Consulta de CEP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples que permite consultar informações sobre um endereço a partir de um CEP. Ele foi desenvolvido com React e Vite, utilizando a API pública ViaCEP para buscar as informações.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Consulta de CEP**: Permite que o usuário digite um CEP e obtenha as informações relacionadas, como logradouro, bairro, cidade e estado.
+- **Validação de entrada**: O sistema valida se o CEP informado possui 8 dígitos numéricos.
+- **Mensagens de erro**: Exibe mensagens de erro caso o CEP seja inválido ou não encontrado.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Vite**: Ferramenta de construção e empacotamento do projeto.
+- **API ViaCEP**: Serviço gratuito para consulta de dados de endereço a partir do CEP.
+
+## Como Executar
+
+1. Clone este repositório em sua máquina:
+   ```bash
+   git clone https://github.com/Devaks99/consulta-cep.git
