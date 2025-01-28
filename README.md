@@ -14,6 +14,8 @@ Este projeto é uma aplicação simples que permite consultar informações sobr
 - **Vite**: Ferramenta de construção e empacotamento do projeto.
 - **API ViaCEP**: Serviço gratuito para consulta de dados de endereço a partir do CEP.
 
+---
+
 ## Como Executar
 
 1. Clone este repositório em sua máquina:
