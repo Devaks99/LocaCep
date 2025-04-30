@@ -2,6 +2,9 @@
 
 Este projeto é uma aplicação simples que permite consultar informações sobre um endereço a partir de um CEP. Ele foi desenvolvido com React e Vite, utilizando a API pública ViaCEP para buscar as informações.
 
+![img locacep](https://github.com/user-attachments/assets/ec5b2c23-92ae-439f-bc59-45ffcf0aab3c)
+
+
 ## Funcionalidades
 
 - **Consulta de CEP**: Permite que o usuário digite um CEP e obtenha as informações relacionadas, como logradouro, bairro, cidade e estado.
