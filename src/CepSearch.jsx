@@ -35,7 +35,7 @@ function CepSearch() {
     <div className="cep-container">
       <input
         type="text"
-        placeholder="Digite o CEP"
+        placeholder="Digite o CEP  (Apenas números)"
         value={cep}
         onChange={(e) => setCep(e.target.value)}
       />
